@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="JS/SCRIPT_04.JS"></script>
+</head>
+
+<!--onload = llamar-->
+<body onload="muevereloj()">
+
+    <!--formulario llamado form_reloj-->
+    <form name="form_reloj"> 
+        <!--input es una cajita y css-->
+        <input type="text" name="reloj" size="12" 
+        style="background-color: black;
+        color: white;
+        font-family: Verdana, Arial,Helvetica;
+        font-size: 14pt;
+        text-align: center;"
+        onfocus="window.document.form_reloj.reloj.blur()"> <!-- onfocus significa cuando se selecciona o se de click y el blur para quitar el foco de ese elemento-->
+                                                            <!--window.document es una forma de acceder al objeto Document osea html-->
+        
+    </form>
+</body>
+</html>

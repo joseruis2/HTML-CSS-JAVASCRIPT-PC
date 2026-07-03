@@ -1,0 +1,18 @@
+/*body signfica todo el contenido de la pagina*/
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*media = cuando*/
+@media(min-width: 1001px){
+    h1{
+        text-align: center;
+    }
+
+    #descripcion{
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,65 @@
+.formulario{ /*nombre de la clase*/
+    background: rgb(45, 45, 54);
+    width: 580px; /*ancho del formulario*/
+    height: 440px; /*altura*/
+}
+
+h1{ /*titulo*/
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.formulario input{ /*input*/
+    width: 40%;
+    height: 30px;
+
+    border-radius: 8px;
+    padding: 5px;
+
+    margin-top: 12px;
+    margin-left: 27px;
+    border: none; /*eliminamos el contorno del input*/
+    background: transparent; /*transparente*/
+
+    border-bottom: 3px solid #5f9; /*color del border*/
+}
+
+.formulario input:focus{ /*focus cuando le damos click se activa*/
+    outline: none; /*eliminamos el contorno input*/
+    border-bottom: 3px solid #2911ff;
+}
+
+.btn{ /*boton*/
+    position: absolute;
+    left: 400px; /*costados*/
+    top: 400px; /*abajo*/
+
+    width: 4cm;
+    height: 1cm;
+    color: white; /*texto*/
+    background: #5f9;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.imagen{ /*imagen*/
+    width: 200px;
+    height: 200px;
+
+    background-image: url("usuario.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: 200px;
+
+    position: absolute;
+
+    top: 105px;
+    left: 310px;
+}
+
+.label{ /*color del label*/
+    color: aliceblue;
+}

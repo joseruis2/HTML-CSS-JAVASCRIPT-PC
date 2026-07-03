@@ -1,0 +1,24 @@
+
+#menuhorizontal{
+   margin: 5px; /* espacio de 5 píxeles a la derecha*/
+   padding: 15px; /*tendrá un espacio de 15 píxeles entre su borde arriba,abajo,etc*/
+   list-style-type: none; /* elimina los marcadores de lista predeterminados*/
+}
+
+#menuhorizontal a{
+    width: 300px; /*ancho*/
+    text-decoration: none;/*Elimina la decoración predeterminada de los enlaces*/
+    text-align: center; /*linea centro*/
+    color: red; /*color de letra rojo*/
+    background-color: yellow; /*color de fondo amarillo*/
+    padding: 3px 5px; /*3 píxeles de relleno en la parte superior y inferior, y 5 píxeles de relleno en los lados izquierdo y derecho.*/
+    border-right: 1px solid blue; /*todos los bordes es azul*/
+    display: block; /*garantizar que cada enlace esté en su propia línea*/
+}
+#menuhorizontal li{
+    float: left; /*colocarse a la izquierda*/
+}
+
+#menuhorizontal a:hover{
+    background-color: aqua; /*cursor del mouse se coloca sobre los enlaces dentro del menú horizontal  el color de fondo se cambiará a aqua*/
+}

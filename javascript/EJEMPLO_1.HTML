@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script type="text/javascript">
+        function prueba(){
+            var valor = prompt("dime la contraseña");
+
+            if (valor == "jose") {
+                alert("la contraseña es correcta");                
+            }
+            else{
+                alert("contraseña no valida"+valor);
+                location.href = "https://www.google.com.pe/?hl=es"; /* location.href = cambia de pagina*/
+        }
+    }
+    </script>
+    
+</head>
+
+<body onload="prueba();">
+    <p>desarrollo de software</p>
+   
+    
+</body>
+</html>
